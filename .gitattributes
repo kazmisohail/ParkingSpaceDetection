@@ -2,3 +2,5 @@
 *.mp4 filter=lfs diff=lfs merge=lfs -text
 *.h5 filter=lfs diff=lfs merge=lfs -text
 *.keras filter=lfs diff=lfs merge=lfs -text
+models/unet_parking.h5 filter=lfs diff=lfs merge=lfs -text
+models/unet_parking.keras filter=lfs diff=lfs merge=lfs -text
