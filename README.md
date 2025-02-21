@@ -9,3 +9,5 @@ There are two main parts of the project.
 I used YOLO(v11n) model to detect cars in parking and Roboflow for data annotation and then export it in YOLO format to use it in model training.
 
 ## 2. Parking Lot Segmentation
+
+I used UNET to train the model for parking lot segmentation. From  Roboflow, i annotate data and then export it in CC
