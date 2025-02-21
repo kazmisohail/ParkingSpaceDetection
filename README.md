@@ -10,4 +10,4 @@ I used YOLO(v11n) model to detect cars in parking and Roboflow for data annotati
 
 ## 2. Parking Lot Segmentation
 
-I used UNET to train the model for parking lot segmentation. From  Roboflow, i annotate data and then export it in CC
+I used UNET to train the model for parking lot segmentation. From  Roboflow, I annotate data and then export it in COCO JSON format. I created mask image using the coco json file, and images and mask images are used to train the UNET model.
