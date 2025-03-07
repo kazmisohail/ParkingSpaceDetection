@@ -9,3 +9,14 @@ There are two main parts of the project.
 I used YOLO(v11n) model to detect cars in parking and Roboflow for data annotation and then export it in YOLO format to use it in model training.
 
 ## 2. Parking Lot Segmentation
+
+I used UNET to train the model for parking lot segmentation. From  Roboflow, I annotate data and then export it in COCO JSON format. I created mask image using the coco json file, and images and mask images are used to train the UNET model.
+
+## Integration
+
+An IoU-based function integrates both model outputs to determine occupancy status.
+
+
+To run the project:
+Install all of the required libraries using pip (OpenCV, TensorFlow, PyTorch, ultralytics).
+Configure Jupyter Notebook for development.
